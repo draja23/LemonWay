@@ -1,0 +1,14 @@
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\bin\Debug\LemonWay.ConsumeWS.WinFormApp.exe.config
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\bin\Debug\LemonWay.ConsumeWS.WinFormApp.exe
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\bin\Debug\LemonWay.ConsumeWS.WinFormApp.pdb
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.Properties.Resources.resources
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.csproj.GenerateResource.cache
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.exe
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.pdb
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\bin\Debug\log4net.dll
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\bin\Debug\log4net.xml
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.csproj.CopyComplete
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.Form1.resources
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\obj\Debug\LemonWay.ConsumeWS.WinFormApp.csprojAssemblyReference.cache
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.WinFormApp\bin\Debug\log4net.config

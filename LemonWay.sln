@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWay.WebService", "LemonWay.WebService\LemonWay.WebService.csproj", "{6B71C409-3736-4F88-BBAF-9948F29B7811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWay.ConsumeWS.ConsoleApp", "LemonWay.ConsumeWS.ConsoleApp\LemonWay.ConsumeWS.ConsoleApp.csproj", "{63D92662-B70A-4D9B-80CD-61DE56A48B62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B71C409-3736-4F88-BBAF-9948F29B7811} = {6B71C409-3736-4F88-BBAF-9948F29B7811}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWay.ConsumeWS.WinFormApp", "LemonWay.ConsumeWS.WinFormApp\LemonWay.ConsumeWS.WinFormApp.csproj", "{7E31D4AC-A3D1-4CE3-BB01-03CC8E506803}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B71C409-3736-4F88-BBAF-9948F29B7811} = {6B71C409-3736-4F88-BBAF-9948F29B7811}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWay.UnitTest", "LemonWay.UnitTest\LemonWay.UnitTest.csproj", "{58570133-067B-4C72-AA80-86BC7E084260}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B71C409-3736-4F88-BBAF-9948F29B7811} = {6B71C409-3736-4F88-BBAF-9948F29B7811}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B71C409-3736-4F88-BBAF-9948F29B7811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B71C409-3736-4F88-BBAF-9948F29B7811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B71C409-3736-4F88-BBAF-9948F29B7811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B71C409-3736-4F88-BBAF-9948F29B7811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D92662-B70A-4D9B-80CD-61DE56A48B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D92662-B70A-4D9B-80CD-61DE56A48B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D92662-B70A-4D9B-80CD-61DE56A48B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D92662-B70A-4D9B-80CD-61DE56A48B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E31D4AC-A3D1-4CE3-BB01-03CC8E506803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E31D4AC-A3D1-4CE3-BB01-03CC8E506803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E31D4AC-A3D1-4CE3-BB01-03CC8E506803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E31D4AC-A3D1-4CE3-BB01-03CC8E506803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58570133-067B-4C72-AA80-86BC7E084260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58570133-067B-4C72-AA80-86BC7E084260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58570133-067B-4C72-AA80-86BC7E084260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58570133-067B-4C72-AA80-86BC7E084260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7613C49E-E795-4A94-891D-BF3C39F14A7D}
+	EndGlobalSection
+EndGlobal

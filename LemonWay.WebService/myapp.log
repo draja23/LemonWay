@@ -1,0 +1,32 @@
+2018-10-18 00:32:50,450 [74] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'foo' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'footer'. Ligne 1, position 11.
+2018-10-18 00:45:10,395 [171] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 01:10:50,295 [196] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 01:38:55,321 [170] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 01:40:42,882 [198] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Données non valides au niveau racine. Ligne 1, position 1.
+2018-10-18 01:41:45,004 [179] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Données non valides au niveau racine. Ligne 1, position 1.
+2018-10-18 01:42:48,047 [181] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Données non valides au niveau racine. Ligne 1, position 1.
+2018-10-18 01:43:34,070 [157] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 01:46:01,895 [170] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 01:47:08,600 [170] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 01:47:41,119 [170] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 01:49:32,345 [170] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:36,954 [163] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:37,708 [173] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:38,152 [181] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:38,362 [180] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:38,563 [169] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:38,743 [181] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:38,932 [169] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:49:44,391 [157] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:51:34,022 [157] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Données non valides au niveau racine. Ligne 1, position 1.
+2018-10-18 01:52:00,311 [157] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'TRANS' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'TRANSA'. Ligne 1, position 172.
+2018-10-18 01:54:23,658 [170] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 02:00:01,986 [173] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 02:01:29,932 [173] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 02:01:41,365 [173] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 02:04:53,392 [148] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 02:05:00,104 [170] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 02:05:52,464 [152] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : Élément racine manquant.
+2018-10-18 02:19:46,444 [129] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'foo' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'fooS'. Ligne 1, position 11.
+2018-10-18 02:19:54,501 [135] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'foo' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'fooS'. Ligne 1, position 11.
+2018-10-18 02:19:56,986 [133] FATAL LemonWay.WebService.LemonWayWebService - WebMethod XmlToJson : La balise de début 'foo' sur la ligne 1 à la position 2 ne correspond pas à la balise de fin de 'fooS'. Ligne 1, position 11.

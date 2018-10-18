@@ -1,0 +1,10 @@
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\bin\Debug\LemonWay.ConsumeWS.ConsoleApp.exe.config
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\bin\Debug\LemonWay.ConsumeWS.ConsoleApp.exe
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\bin\Debug\LemonWay.ConsumeWS.ConsoleApp.pdb
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\bin\Debug\log4net.dll
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\bin\Debug\log4net.xml
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\obj\Debug\LemonWay.ConsumeWS.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\obj\Debug\LemonWay.ConsumeWS.ConsoleApp.csproj.CopyComplete
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\obj\Debug\LemonWay.ConsumeWS.ConsoleApp.exe
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\obj\Debug\LemonWay.ConsumeWS.ConsoleApp.pdb
+C:\Users\draja\source\repos\LemonWay\LemonWay.ConsumeWS.ConsoleApp\bin\Debug\log4net.config
