@@ -85,7 +85,7 @@
             this.btn_compute_FS.TabIndex = 4;
             this.btn_compute_FS.Text = "Compute Fibonancci";
             this.btn_compute_FS.UseVisualStyleBackColor = true;
-            this.btn_compute_FS.Click += new System.EventHandler(this.btn_compute_FS_Click);
+            this.btn_compute_FS.Click += new System.EventHandler(this.Btn_compute_FS_Click);
             // 
             // btn_convert_json
             // 

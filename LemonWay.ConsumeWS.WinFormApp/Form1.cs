@@ -18,18 +18,22 @@ namespace LemonWay.ConsumeWS.WinFormApp
         public LemonWayWebServiceSoapClient service = new LemonWayWebServiceSoapClient();
         //log
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+        //BusyForm
+        BusyForm pleaseWait = new BusyForm();
         public Form1()
         {
             InitializeComponent();
         }
 
-        private async void btn_compute_FS_Click(object sender, EventArgs e)
+        private async void Btn_compute_FS_Click(object sender, EventArgs e)
         {
+            pleaseWait.Show();
+
             if (!ValidateFibonacciInput())
                 return;
 
-            this.Enabled = false;
+            this.Enabled = false;          
+          
             Cursor.Current = Cursors.WaitCursor;
             log.Info("Sleeping for 2s");
             Thread.Sleep(2000);
@@ -38,12 +42,13 @@ namespace LemonWay.ConsumeWS.WinFormApp
             int returnedValue = await FibonacciClientAsync(computeValue);
             log.Info("Fin d'appel à la methode ASYNC: Fibonacci");
             lbl_result_fs.Text = returnedValue.ToString();
-
             lbl_result_fs.ForeColor = Color.Green;
             lbl_result_fs.Visible = true;
 
-            //MessageBox.Show("RESULT IS :" + lbl_result_fs.Text);
+            //MessageBox.Show(lbl_result_fs.Text);
+            
             this.Enabled = true;
+            pleaseWait.Hide();
         }
 
         private async Task<int> FibonacciClientAsync(int val)
@@ -54,6 +59,7 @@ namespace LemonWay.ConsumeWS.WinFormApp
 
         private async void btn_convert_json_Click(object sender, EventArgs e)
         {
+            pleaseWait.Show();
             this.Enabled = false;
             Cursor.Current = Cursors.WaitCursor;
             Thread.Sleep(2000);
@@ -63,6 +69,7 @@ namespace LemonWay.ConsumeWS.WinFormApp
             log.Info("Fin d'appel à la methode ASYNC: XmlToJson");
             //MessageBox.Show("RESULT IS :" + txt_json.Text);
             this.Enabled = true;
+            pleaseWait.Hide();
         }
 
         private async Task<string> XmlToJsonClientAsync(string xString)
@@ -75,11 +82,15 @@ namespace LemonWay.ConsumeWS.WinFormApp
         
         private void btn_execute_all_Click(object sender, EventArgs e)
         {
+            pleaseWait.Show();
+
             if (!ValidateFibonacciInput())
                 return;
-
+             
             this.Enabled = false;
             Cursor.Current = Cursors.WaitCursor;
+            Thread.Sleep(2000);
+
             int fibonacciClientIn = int.Parse(txt_FS.Text);
             string xmlToJsonClientIn = txt_xtj.Text;
 
@@ -90,10 +101,12 @@ namespace LemonWay.ConsumeWS.WinFormApp
                             () => xmlToJsonClientOut = XmlToJsonClient(xmlToJsonClientIn));
             log.Info("TPL END");
             lbl_result_fs.Visible = true;
+            lbl_result_fs.ForeColor = Color.Green;
             lbl_result_fs.Text = fibonacciClientOut.ToString();
             txt_json.Text = xmlToJsonClientOut;
 
             this.Enabled = true;
+            pleaseWait.Hide();
         }
         
         private string XmlToJsonClient(string xString)
@@ -118,6 +131,7 @@ namespace LemonWay.ConsumeWS.WinFormApp
             }
             catch (Exception ex)
             {
+                pleaseWait.Hide();
                 txt_FS.Text = string.Empty;
                 MessageBox.Show("Veuillez entrer un entier valide pour Fibonacci");
                 log.Info("Validation d'entrer numérique KO.");
